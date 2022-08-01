@@ -1,9 +1,16 @@
-.MuiFormControl-root{
-    display: flex;
-    width: 300px;
+.MuiFormControl-root {
+  display: flex;
+  width: 300px;
+  height: auto;
 }
-.MuiOutlinedInput-root{
-    width: 300px;
-    display: flex;
-    
+.MuiOutlinedInput-root {
+  width: 300px;
+  height: auto;
+  display: flex;
+}
+.container-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
